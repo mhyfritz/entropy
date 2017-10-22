@@ -1,6 +1,6 @@
 export function entropy (str, base = 2) {
   const counter = {}
-  for (let char of str) {
+  for (const char of str) {
     if (counter[char] === undefined) {
       counter[char] = 0
     }
