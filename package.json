@@ -1,0 +1,24 @@
+{
+  "name": "@mhyfritz/entropy",
+  "version": "0.0.1",
+  "description": "",
+  "module": "esm/index.js",
+  "main": "cjs/index.js",
+  "scripts": {
+    "build": "babel esm --out-dir cjs",
+    "prepublishOnly": "npm run build",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Markus Hsi-Yang Fritz",
+    "email": "markus.h.y.fritz@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "standard": "^10.0.3"
+  }
+}
