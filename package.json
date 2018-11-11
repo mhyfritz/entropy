@@ -1,6 +1,6 @@
 {
   "name": "@mhyfritz/entropy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "module": "esm/index.js",
   "main": "cjs/index.js",
